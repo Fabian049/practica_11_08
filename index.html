@@ -5,11 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="js\index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css\index.css" media="screen" />
+
 </head>
 <body>
-    <h1>Ingreso de Animales</h1>
-    <input type="text" name="txtAnimal" id="animal">
-    <button type="button" id="btnAgregar">Agregar</button>
-    <div id="listado"></div>
+    <h1>Primer punto</h1>
+    <input id="entrada" type="text" value="FABIAN">
+    <br>
+    <br>
+    
+    <button id="add" onclick="add_li()">add</button>
+    <button id="clear" onclick="eliminar()">Borrar</button>
+    
+    <h1>Entradas anteriores</h1>
+    <ul id="lista">
+       
+    </ul>
+
 </body>
 </html>
