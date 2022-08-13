@@ -1,4 +1,5 @@
 
+//Primer punto
 
 function add_li(){
   var entrada = document.getElementById("entrada").value.toLowerCase();
@@ -29,3 +30,5 @@ function eliminar(){
  
   return false;
  }
+
+ 
