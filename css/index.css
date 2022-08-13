@@ -56,3 +56,13 @@ h1 {
 	width: 540px;
 	height: 115px;
 }
+.botons{
+	border: 1px solid #363431;
+	color: white;
+    padding: 15px 50px;
+	font-size: 15px;
+	border-radius: 5px;
+    background-color: #5e7cbe;
+    margin-top: 100px;
+    margin-left: 20px;
+}
